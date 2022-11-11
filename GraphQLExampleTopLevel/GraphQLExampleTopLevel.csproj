@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="HotChocolate.AspNetCore" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="HotChocolate.AspNetCore" Version="12.15.2" />
+  </ItemGroup>
 </Project>
