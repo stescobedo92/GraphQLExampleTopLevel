@@ -7,3 +7,5 @@ app.UseRouting().UseEndpoints(endpoints => endpoints.MapGraphQL());
 
 app.Run();
 
+public record Book(string Title, Author Author);
+public record Author(string Name);
